@@ -224,7 +224,6 @@ a {
   font-size: 1.5em;
   letter-spacing: 5px;
   width: 100%;
-  scroll-snap-align: start;
 }
 
 .case h2 {
@@ -473,4 +472,13 @@ a-no-line {
 
 .case-bt p {
   line-height: 1.575em;
+}
+
+.snap h2 {
+  font-size: 1em;
+}
+
+.top-fold-list {
+  font-size: 1.1em;
+  margin-block-start: 1em;
 }

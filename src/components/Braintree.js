@@ -25,39 +25,61 @@ class Braintree extends Component {
           <a
             href="/Li_Thomas_Resume_2020.pdf"
             target="_blank"
-            className="m-bottom-10 link-case"
+            className="m-bottom-10 link-case mobile-m-bottom-10px"
           >
             Resume
             <div className="yellowbar-case"></div>
           </a>
-          <Link to="airbnb" className="m-top-20 link-case">
-            Airbnb
-            <div className="yellowbar-case"></div>
+          <div className="desktop-no-show"> </div>
+
+          <Link
+            to="airbnb"
+            className="m-top-20 link-case yellowbar-case-selected mobile-m-top-0"
+          >
+            <span className="mobile-no-show">Airbnb</span>
+            <img
+              src="/img/logo-airbnb.png"
+              className="desktop-no-show w-44px"
+            />
+            <div className="yellowbar-case mobile-no-show"></div>
           </Link>
           <Link to="/braintree" className="link-case">
-            Braintree
+            <span className="mobile-no-show">Braintree</span>
+            <img
+              src="/img/logo-braintree.png"
+              className="desktop-no-show w-44px"
+            />
             <div className="yellowbar-case yellowbar-case-selected"></div>
           </Link>
           <Link to="/knightlab" className="link-case">
-            NU Knight Lab
-            <div className="yellowbar-case"></div>
+            <span className="mobile-no-show">NU Knight Lab</span>
+            <img
+              src="/img/logo-knightlab.png"
+              className="desktop-no-show w-44px"
+            />
           </Link>
           <Link to="/visualdesign" className="link-case">
-            Viz Design
-            <div className="yellowbar-case"></div>
+            <span className="mobile-no-show">Visual Design</span>
+            <img
+              src="/img/logo-visualdesign.png"
+              className="desktop-no-show w-44px"
+            />
           </Link>
-          <Link to="/allprojects" className="link-case">
+          <Link to="/allprojects" className="link-case mobile-no-show">
             See All
             <div className="yellowbar-case"></div>
           </Link>
         </div>
 
-        <div className="col-8 m-top-3 m-bottom-6 m-left-20 text-links">
+        <div className="col-8 m-top-3 m-bottom-6 m-left-20 text-links mobile-m-l-r-0 mobile-w-100">
           <div className="col-12 d-inline padding-right-1 padding-bottom-2 b-s-border-box case-body ">
-            <img src="/img/allproj-braintree.png" className="w-100 m-h-300" />
+            <img
+              src="/img/allproj-braintree.png"
+              className="w-100 m-h-300 mobile-m-top-55"
+            />
             <h1>Designing to bridge marketing & documentation</h1>
             <div className="top-fold">
-              <div className="col-8 d-inline v-align-top b-s-border-box p-right-8 case-bt">
+              <div className="col-8 d-inline v-align-top b-s-border-box p-right-8 case-bt mobile-w-100">
                 <p>
                   My very first tech internship was a chance for me to explore
                   and see different roles firsthand; as a intern on the Docs
@@ -77,15 +99,15 @@ class Braintree extends Component {
                   </a>
                 </div>
               </div>
-              <div className="col-4 d-inline v-align-top top-right">
-                <p>
+              <div className="col-4 d-inline v-align-top top-right mobile-w-100">
+                <div className="top-fold-list">
                   <strong>Skills:</strong>
                   <ul>
                     <li>Wireframing (Figma)</li>
                     <li>Visual Design</li>
                     <li>UX Writing</li>
                   </ul>
-                </p>
+                </div>
                 <p>
                   <strong>Timeline:</strong>
                   <br />
@@ -101,15 +123,15 @@ class Braintree extends Component {
             </div>
 
             <div className="text-links">
-              <div className="col-6 d-inline">
+              <div className="col-6 d-inline mobile-w-100">
                 <Link to="/airbnb" className="see-all">
-                  <i class="material-icons icon-smaller icon-flipped">
+                  <i class="material-icons icon-smaller icon-flipped d-inline">
                     double_arrow
                   </i>
                   PREVIOUS: AIRBNB
                 </Link>
               </div>
-              <div className="col-6 d-inline t-align-right">
+              <div className="col-6 d-inline t-align-right mobile-w-100 mobile-t-align-left">
                 <Link to="/knightlab" className="see-all">
                   NEXT: NU KNIGHT LAB
                   <i class="material-icons icon-smaller">double_arrow</i>

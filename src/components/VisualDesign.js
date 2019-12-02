@@ -25,35 +25,55 @@ class VisualDesign extends Component {
           <a
             href="/Li_Thomas_Resume_2020.pdf"
             target="_blank"
-            className="m-bottom-10 link-case"
+            className="m-bottom-10 link-case mobile-m-bottom-10px"
           >
             Resume
             <div className="yellowbar-case"></div>
           </a>
-          <Link to="airbnb" className="m-top-20 link-case">
-            Airbnb
-            <div className="yellowbar-case"></div>
+          <div className="desktop-no-show"> </div>
+
+          <Link
+            to="airbnb"
+            className="m-top-20 link-case yellowbar-case-selected mobile-m-top-0"
+          >
+            <span className="mobile-no-show">Airbnb</span>
+            <img
+              src="/img/logo-airbnb.png"
+              className="desktop-no-show w-44px"
+            />
+            <div className="yellowbar-case mobile-no-show"></div>
           </Link>
           <Link to="/braintree" className="link-case">
-            Braintree
-            <div className="yellowbar-case"></div>
+            <span className="mobile-no-show">Braintree</span>
+            <img
+              src="/img/logo-braintree.png"
+              className="desktop-no-show w-44px"
+            />
+            <div className="yellowbar-case mobile-no-show"></div>
           </Link>
           <Link to="/knightlab" className="link-case">
-            NU Knight Lab
-            <div className="yellowbar-case"></div>
+            <span className="mobile-no-show">NU Knight Lab</span>
+            <img
+              src="/img/logo-knightlab.png"
+              className="desktop-no-show w-44px"
+            />
+            <div className="yellowbar-case "></div>
           </Link>
           <Link to="/visualdesign" className="link-case">
-            Viz Design
-            <div className="yellowbar-case  yellowbar-case-selected"></div>
+            <span className="mobile-no-show">Visual Design</span>
+            <img
+              src="/img/logo-visualdesign.png"
+              className="desktop-no-show w-44px"
+            />
+            <div className="yellowbar-case yellowbar-case-selected"></div>
           </Link>
-          <Link to="/allprojects" className="link-case">
+          <Link to="/allprojects" className="link-case mobile-no-show">
             See All
-            <div className="yellowbar-case"></div>
           </Link>
         </div>
 
-        <div className="col-8 m-top-3 m-bottom-6 m-left-20 text-links">
-          <div className="col-12 d-inline padding-right-1 padding-bottom-2 b-s-border-box case-body case-viz">
+        <div className="col-8 m-top-3 m-bottom-6 m-left-20 text-links  mobile-m-l-r-0 mobile-w-100">
+          <div className="col-12 d-inline padding-right-1 padding-bottom-2 b-s-border-box case-body case-viz mobile-m-top-55">
             <h1>Visual Design</h1>
             <p>
               This is all the stuff I've loved working on that didn't quite fit
@@ -91,7 +111,7 @@ class VisualDesign extends Component {
             <hr />
             <div className="text-links">
               <Link to="/knightlab" className="see-all">
-                <i class="material-icons icon-smaller icon-flipped">
+                <i className="material-icons icon-smaller icon-flipped">
                   double_arrow
                 </i>
                 PREVIOUS: KNIGHT LAB

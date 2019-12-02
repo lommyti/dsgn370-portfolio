@@ -304,18 +304,6 @@
   z-index: 99;
 }
 
-.m-h-200 {
-  min-height: 200px;
-}
-
-.m-h-300 {
-  min-height: 300px;
-}
-
-.m-h-400 {
-  min-height: 400px;
-}
-
 .t-align-right {
   text-align: right;
 }

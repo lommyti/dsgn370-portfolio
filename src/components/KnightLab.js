@@ -25,42 +25,62 @@ class Airbnb extends Component {
           <a
             href="/Li_Thomas_Resume_2020.pdf"
             target="_blank"
-            className="m-bottom-10 link-case"
+            className="m-bottom-10 link-case mobile-m-bottom-10px"
           >
             Resume
             <div className="yellowbar-case"></div>
           </a>
-          <Link to="airbnb" className="m-top-20 link-case">
-            Airbnb
-            <div className="yellowbar-case "></div>
+          <div className="desktop-no-show"> </div>
+
+          <Link
+            to="airbnb"
+            className="m-top-20 link-case yellowbar-case-selected mobile-m-top-0"
+          >
+            <span className="mobile-no-show">Airbnb</span>
+            <img
+              src="/img/logo-airbnb.png"
+              className="desktop-no-show w-44px"
+            />
+            <div className="yellowbar-case mobile-no-show"></div>
           </Link>
           <Link to="/braintree" className="link-case">
-            Braintree
-            <div className="yellowbar-case"></div>
+            <span className="mobile-no-show">Braintree</span>
+            <img
+              src="/img/logo-braintree.png"
+              className="desktop-no-show w-44px"
+            />
+            <div className="yellowbar-case mobile-no-show"></div>
           </Link>
           <Link to="/knightlab" className="link-case">
-            NU Knight Lab
+            <span className="mobile-no-show">NU Knight Lab</span>
+            <img
+              src="/img/logo-knightlab.png"
+              className="desktop-no-show w-44px"
+            />
             <div className="yellowbar-case yellowbar-case-selected"></div>
           </Link>
           <Link to="/visualdesign" className="link-case">
-            Viz Design
-            <div className="yellowbar-case"></div>
+            <span className="mobile-no-show">Visual Design</span>
+            <img
+              src="/img/logo-visualdesign.png"
+              className="desktop-no-show w-44px"
+            />
           </Link>
-          <Link to="/allprojects" className="link-case">
+          <Link to="/allprojects" className="link-case mobile-no-show">
             See All
             <div className="yellowbar-case"></div>
           </Link>
         </div>
 
-        <div className="col-8 m-top-3 m-bottom-6 m-left-20 text-links">
+        <div className="col-8 m-top-3 m-bottom-6 m-left-20 text-links mobile-m-l-r-0 mobile-w-100">
           <div className="col-12 d-inline padding-right-1 padding-bottom-2 b-s-border-box case-body ">
             <img
               src="/img/allproj-knightlab-hq.png"
-              className="w-100 m-h-300"
+              className="w-100 m-h-300 mobile-m-top-55"
             />
             <h1>How might we eliminate tedious, paper-based fact-checking?</h1>
             <div className="top-fold">
-              <div className="col-8 d-inline v-align-top p-right-8 b-s-border-box">
+              <div className="col-8 d-inline v-align-top p-right-8 b-s-border-box  mobile-w-100">
                 <p>
                   Fact-Check Flow was a project supported by the{" "}
                   <a href="https://knightlab.northwestern.edu/" target="_blank">
@@ -77,14 +97,14 @@ class Airbnb extends Component {
                   that they use to write stories.
                 </p>
               </div>
-              <div className="col-4 d-inline v-align-top top-right b-s-border-box p-right-3">
-                <p>
+              <div className="col-4 d-inline v-align-top top-right b-s-border-box p-right-3  mobile-w-100">
+                <div className="top-fold-list">
                   <strong>Skills:</strong>
                   <ul>
                     <li>Wireframing (Figma)</li>
                     <li>Front-End Development</li>
                   </ul>
-                </p>
+                </div>
                 <p>
                   <strong>Timeline:</strong>
                   <br />
@@ -340,18 +360,18 @@ class Airbnb extends Component {
             </p>
             <hr />
             <div className="text-links">
-              <div className="col-6 d-inline">
+              <div className="col-6 d-inline mobile-w-100">
                 <Link to="/braintree" className="see-all">
-                  <i class="material-icons icon-smaller icon-flipped">
+                  <i className="material-icons icon-smaller icon-flipped">
                     double_arrow
                   </i>
                   PREVIOUS: BRAINTREE
                 </Link>
               </div>
-              <div className="col-6 d-inline t-align-right">
+              <div className="col-6 d-inline t-align-right mobile-w-100 mobile-t-align-left">
                 <Link to="/visualdesign" className="see-all">
                   NEXT: VISUAL DESIGN
-                  <i class="material-icons icon-smaller">double_arrow</i>
+                  <i className="material-icons icon-smaller">double_arrow</i>
                 </Link>
               </div>
             </div>

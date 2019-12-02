@@ -12,6 +12,7 @@ import VisualDesign from "./components/VisualDesign";
 
 import "./App.css";
 import "./positioning.css";
+import "./mobile.css";
 
 class App extends Component {
   constructor(props) {

@@ -25,56 +25,90 @@ class Airbnb extends Component {
           <a
             href="/Li_Thomas_Resume_2020.pdf"
             target="_blank"
-            className="m-bottom-10 link-case"
+            className="m-bottom-10 link-case mobile-m-bottom-10px"
           >
             Resume
             <div className="yellowbar-case"></div>
           </a>
+          <div className="desktop-no-show"> </div>
           <Link
             to="airbnb"
-            className="m-top-20 link-case yellowbar-case-selected"
+            className="m-top-20 link-case yellowbar-case-selected mobile-m-top-0"
           >
-            Airbnb
-            <div className="yellowbar-case yellowbar-case-selected"></div>
+            <span className="mobile-no-show">Airbnb</span>
+            <img
+              src="/img/logo-airbnb.png"
+              className="desktop-no-show w-44px"
+            />
+            <div className="yellowbar-case yellowbar-case-selected "></div>
           </Link>
           <Link to="/braintree" className="link-case">
-            Braintree
-            <div className="yellowbar-case"></div>
+            <span className="mobile-no-show">Braintree</span>
+            <img
+              src="/img/logo-braintree.png"
+              className="desktop-no-show w-44px"
+            />
+            <div className="yellowbar-case mobile-no-show"></div>
           </Link>
           <Link to="/knightlab" className="link-case">
-            NU Knight Lab
-            <div className="yellowbar-case"></div>
+            <span className="mobile-no-show">NU Knight Lab</span>
+            <img
+              src="/img/logo-knightlab.png"
+              className="desktop-no-show w-44px"
+            />
           </Link>
           <Link to="/visualdesign" className="link-case">
-            Viz Design
-            <div className="yellowbar-case"></div>
+            <span className="mobile-no-show">Visual Design</span>
+            <img
+              src="/img/logo-visualdesign.png"
+              className="desktop-no-show w-44px"
+            />
           </Link>
-          <Link to="/allprojects" className="link-case">
+          <Link to="/allprojects" className="link-case mobile-no-show">
             See All
             <div className="yellowbar-case"></div>
           </Link>
         </div>
 
-        <div className="col-8 m-top-3 m-bottom-6 m-left-20 text-links">
+        <div className="col-8 m-top-3 m-bottom-6 m-left-20 text-links mobile-m-l-r-0 mobile-w-100">
           <div className="col-12 d-inline padding-right-1 padding-bottom-2 b-s-border-box case-body">
-            <img src="/img/allproj-airbnb.png" className="w-100 m-h-300" />
+            <img
+              src="/img/allproj-airbnb.png"
+              className="w-100 m-h-300 mobile-m-top-55"
+            />
             <h1>
               How might we support Airbnb hosts in trusting guests traveling
               with pets?
             </h1>
             <div className="top-fold">
-              <div className="col-8 d-inline v-align-top">
-                <p>Building a pet payments system.</p>
-              </div>
-              <div className="col-4 d-inline v-align-top top-right">
+              <div className="col-8 d-inline v-align-top mobile-w-100 p-right-8 b-s-border-box">
                 <p>
+                  Airbnb hosts have to be ready for a wide range of guests, but
+                  a lack of support for accepting{" "}
+                  <strong>travelers with pets</strong> makes it difficult to
+                  justify the potential damages / extra cleaning, especially
+                  when other homeshare platform options handle this process more
+                  smoothly. As part of the{" "}
+                  <a
+                    href="https://design.northwestern.edu/programs/bay-area-immersion/"
+                    target="_blank"
+                  >
+                    NU Bay Area Immersion Program
+                  </a>
+                  , our team designed new solutions for handling guests with
+                  pets, shared our work with relevant teams at Airbnb, and saw
+                  interest from <strong>65% of surveyed hosts</strong>.
+                </p>
+              </div>
+              <div className="col-4 d-inline v-align-top top-right mobile-w-100">
+                <div className="top-fold-list">
                   <strong>Skills:</strong>
                   <ul>
                     <li>Wireframing (Figma)</li>
                     <li>User Research</li>
                     <li>Survey Design</li>
                   </ul>
-                </p>
+                </div>
                 <p>
                   <strong>Timeline:</strong>
                   <br />
@@ -89,7 +123,7 @@ class Airbnb extends Component {
                   >
                     Erica Cantor
                   </a>
-                  ,{" "}
+                  <br />
                   <a
                     href="https://www.linkedin.com/in/idreeskamal/"
                     target="_blank"
@@ -108,11 +142,13 @@ class Airbnb extends Component {
             <p>
               It takes a certain degree of trust for Airbnb hosts to let guests
               in their listings, which are sometimes their personal homes, and
-              the required level of trust spikes when guests bring their pets
-              along with them. However, damage from pets isn't covered currently
-              by Airbnb's insurance policies, and the platform lacks
-              industry-standard features like pet fees that could put hosts at
-              ease. With this in mind, we created a new{" "}
+              the required trust level spikes when guests bring their pets along
+              with them. Airbnb endorses this behavior by providing a "Pets
+              Allowed" filter in the search navigation for guests; however,
+              damage from pets isn't covered currently by the platform's
+              insurance policies, and it lacks industry-standard features like
+              pet fees that could put hosts at ease. With this in mind, we
+              created a new{" "}
               <strong>process for accepting pets + charging pet fees</strong> to
               increase hosts' satisfaction and increase the likelihood of{" "}
               <strong>hosts accepting guests with pets</strong>.
@@ -144,11 +180,13 @@ class Airbnb extends Component {
               sent out a survey by across forums and Facebook groups intended
               specifically for Airbnb hosts. In follow-up phone interviews,
               three hosts recounted for us their current manual processes used
-              to feel secure and fairly compensated while accepting travelers
-              with pets. We found that many hosts were using the Airbnb
-              Resolution Center to collect and charge pet fees already, but that
-              it was a <strong>slow, laborious process</strong> that required
-              approval from Airbnb reps and could only be done{" "}
+              when accepting travelers with pets. We found that pet fees and
+              related charges were considered{" "}
+              <strong>standard in the hospitality industry</strong>, and that
+              many hosts were using the Airbnb Resolution Center to collect and
+              charge pet fees already. However, this method was a{" "}
+              <strong>slow, laborious process</strong> that required approval
+              from Airbnb reps and could only be done{" "}
               <strong>after the booking was over</strong>.
             </p>
             <img src="/img/petquotes2.png" className="w-100" />
@@ -164,8 +202,8 @@ class Airbnb extends Component {
               live-in hosts who love pets and empathize with the frustrations of
               pet travel, to hosts who make their living on Airbnb and are
               already thinking about the extra cleaning time before the next
-              guest. Though we often thought about cases where a single pet
-              would stay for a few days,{" "}
+              guest. We often thought about cases where a single pet would stay
+              for a few days, but{" "}
               <strong>
                 accounts from hosts of multiple pets coming for 3+ months{" "}
               </strong>
@@ -246,7 +284,7 @@ class Airbnb extends Component {
           <div className="text-links t-align-right m-top-3">
             <Link to="/braintree" className="see-all">
               NEXT CASE STUDY: BRAINTREE
-              <i class="material-icons icon-smaller">double_arrow</i>
+              <i className="material-icons icon-smaller">double_arrow</i>
             </Link>
           </div>
           <Footer />
