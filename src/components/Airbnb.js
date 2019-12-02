@@ -88,7 +88,11 @@ class Airbnb extends Component {
                   <strong>travelers with pets</strong> makes it difficult to
                   justify the potential damages / extra cleaning, especially
                   when other homeshare platform options handle this process more
-                  smoothly. As part of the{" "}
+                  smoothly.
+                </p>
+                <p>
+                  {" "}
+                  As part of the{" "}
                   <a
                     href="https://design.northwestern.edu/programs/bay-area-immersion/"
                     target="_blank"
@@ -96,8 +100,8 @@ class Airbnb extends Component {
                     NU Bay Area Immersion Program
                   </a>
                   , our team designed new solutions for handling guests with
-                  pets, shared our work with relevant teams at Airbnb, and saw
-                  interest from <strong>65% of surveyed hosts</strong>.
+                  pets, shared our work with teams at Airbnb, and saw interest
+                  from <strong>65% of surveyed hosts</strong>.
                 </p>
               </div>
               <div className="col-4 d-inline v-align-top top-right mobile-w-100">

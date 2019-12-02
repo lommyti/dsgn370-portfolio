@@ -144,6 +144,20 @@ a {
   z-index: -99;
 }
 
+.anim {
+  animation: fadeInOut 0.5s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .about-text {
   vertical-align: top;
 }
@@ -472,10 +486,6 @@ a-no-line {
 
 .case-bt p {
   line-height: 1.575em;
-}
-
-.snap h2 {
-  font-size: 1em;
 }
 
 .top-fold-list {
