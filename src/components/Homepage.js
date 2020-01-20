@@ -34,15 +34,15 @@ class Homepage extends Component {
             <a href="https://www.northwestern.edu/">Northwestern</a>.
           </p>
           <p className="col-9 text-links">
-            Incoming design intern @
+            Design intern @
             <a
               href="https://wish.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               Wish
-            </a>
-            . <br />
+            </a>{" "}
+            (Winter 2020). <br />
             Past PM intern @
             <a
               href="https://groupon.com"

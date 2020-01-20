@@ -50,7 +50,7 @@ class About extends Component {
               >
                 Braintree
               </a>
-              . This winter, I’ll be @
+              . Currently, I’m @
               <a
                 href="https://wish.com"
                 target="_blank"
