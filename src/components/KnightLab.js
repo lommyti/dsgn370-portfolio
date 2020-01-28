@@ -78,7 +78,10 @@ class Airbnb extends Component {
               src="/img/allproj-knightlab-hq.png"
               className="w-100 m-h-300 mobile-m-top-55"
             />
-            <h1>How might we eliminate tedious, paper-based fact-checking?</h1>
+            <h1>
+              How might we eliminate the need for tedious, paper-based
+              fact-checking?
+            </h1>
             <div className="top-fold">
               <div className="col-8 d-inline v-align-top p-right-8 b-s-border-box  mobile-w-100">
                 <p>
@@ -146,12 +149,12 @@ class Airbnb extends Component {
             </div>
             <h2>PROJECT OVERVIEW</h2>
             <h3>
-              Though most of writing for a publication has moved online,
-              journalistic fact-checking for stories / articles is still done on
-              paper.
+              Though the workflow of writing for publication has mostly moved
+              online, journalistic fact-checking for stories / articles is still
+              done on paper.
             </h3>
             <p>
-              Fact-checking in its current state is a crueling process with
+              Fact-checking in its current state is a grueling process with
               steps that have to be performed meticulously, including:
               <ul>
                 <li>
@@ -161,32 +164,33 @@ class Airbnb extends Component {
                 </li>
                 <li>
                   {" "}
-                  Crossing out each letter in the flagged words as they're
-                  checked against a credible source.
+                  Crossing out each letter in the flagged words/phrases by
+                  checking them against a credible source.
                 </li>
                 <li>
-                  Tracking down any in-person sources to confirm that they’ve
+                  Tracking down any in-person sources to ensure that they’ve
                   been quoted correctly.
                 </li>
               </ul>
             </p>
             <p>
-              This becomes a huge pain when fact-checkers have to receive
-              digital copies of stories,{" "}
+              This becomes a huge pain when fact-checkers receive digital copies
+              of stories,{" "}
               <strong>
                 print them and fact-check them, then summarize changes again
                 digitally
               </strong>{" "}
-              to send back to the writer/editor. We sought to make this process
-              painless by maintaining this level of rigor, but{" "}
+              to send back to the writer / editor. We sought to make this
+              process painless by maintaining this level of rigor, but{" "}
               <strong>eliminating the need for paper copies</strong> and related
               maintenance of each version of a story.
             </p>
             <h2>MY ROLE</h2>
             <p>
               I was responsible for turning our insights and desired features
-              into testable prototypes at various fidelities; this entailed
-              sketching and prototyping in Figma.
+              into testable prototypes at various fidelities; this entailed{" "}
+              <strong>sketching </strong>and prototyping in{" "}
+              <strong>Figma.</strong>
             </p>
             <img src="/img/journeymap.png" className="w-100 m-top-15" />
             <p className="m-top-0 m-bottom-5 t-align-center">
@@ -195,9 +199,8 @@ class Airbnb extends Component {
             <h2>DESIGN PROCESS</h2>
             <p>
               One of our teammates was a journalism student who was able to
-              interview professionals in her network and verify that our
-              identified steps were the ones that are usually taken in
-              journalistic fact-checking (thanks,{" "}
+              interview professionals in her network and verify that these steps
+              were the ones usually taken in journalistic fact-checking (thanks,{" "}
               <a
                 href="https://www.linkedin.com/in/madeline-kaufman-2018/"
                 target="_blank"
@@ -207,13 +210,13 @@ class Airbnb extends Component {
               ).
             </p>
             <p>
-              After settling required tasks, we quickly decided that the ideal
-              platform for our digitalized fact-checking was Google Docs; it’s
-              highly accessible and used more commonly by smaller newsrooms,
-              while larger publications often write their stories in
-              custom-built content management systems (CMSs). To start testing
-              our assumptions, we created a basic prototype on paper that mapped
-              the flow for our core tasks, and tested them with two users.
+              From there, we quickly decided that the ideal platform for our
+              digitalized fact-checking was Google Docs; it’s highly accessible
+              and would allow us to target smaller newsrooms, since larger
+              publications often use custom-built content management systems
+              (CMSs). To test our assumptions, we created a basic prototype on
+              paper that mapped the flow for our core tasks, and showed it to
+              two potential users.
             </p>{" "}
             <h2> Testing our paper prototype</h2>
             <img
@@ -224,8 +227,7 @@ class Airbnb extends Component {
             <p className="m-0 m-bottom-5">
               <em>
                 Upon opening the plugin and highlighting a piece of text, the
-                user would be given the option to add it as a fact to check
-                later.
+                user can add it as a fact to check later.
               </em>
             </p>
             <img
@@ -235,9 +237,9 @@ class Airbnb extends Component {
             />
             <p className="m-0 m-bottom-5">
               <em>
-                The text would then be highlighted with a colored background to
-                indicate that it's been added to the list of facts. Users can
-                then filter this list of facts with the pictured catagories.
+                The text is then highlighted to indicate that it's been added to
+                the list of facts. Users can filter this list of facts with the
+                pictured catagories.
               </em>
             </p>
             <img
@@ -248,7 +250,7 @@ class Airbnb extends Component {
             <p className="m-0 m-bottom-5">
               <em>
                 Clicking on an unconfirmed fact would open a popup allowing
-                useres to confirm it's been checked and attribute a source.
+                users to confirm it's been checked and attribute a source.
               </em>
             </p>{" "}
             <p>
@@ -267,24 +269,25 @@ class Airbnb extends Component {
                   their desire to be able to see all of the facts at once. We
                   combined these observations as an opportunity to think
                   differently about our "core display" and to acknowledge the
-                  set order of the steps in the procedure of fact-checking.
+                  set order of the procedure of fact-checking.
                 </li>
                 <br />
                 <li>
                   <strong>The filter system had to be reworked.</strong> <br />
                   One user felt that the filters seemed too specific to be
                   useful, while the other simply felt that there were too many.
-                  The categories that we had came out of our inquiries into the
-                  most common types of facts that fact-checkers deal with, but
-                  these tests inspired us to think twice about them.
+                  The categories in this prototype came directly from our
+                  conversations with professional fact-checkers, but these tests
+                  inspired us to think more critically about what these
+                  fact-checkers were asking for..
                 </li>
               </ul>
             </p>
             <h2>FINAL PROTOTYPE</h2>
             <p>
-              After receving feedback on our initial ideas, we moved to
-              higher-fidelity prototyping on Figma and mapped out a more
-              thorough user flow to better align with our users' understanding
+              After receving feedback on our initial ideas, we moved to higher
+              fidelity prototyping on Figma and mapped out a more thorough user
+              flow intended to align our thinking with our users' understanding
               of fact-checking.
             </p>
             <h4>Intended user flow</h4>

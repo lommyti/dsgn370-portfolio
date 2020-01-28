@@ -19,7 +19,7 @@ class Footer extends Component {
         <p className="d-inline col-6 mobile-w-100 mobile-t-align-left">
           Built with{" "}
           <i className="material-icons icon-small accent">favorite</i> & React
-          in 2019.
+          in 2020.
         </p>
       </footer>
     );

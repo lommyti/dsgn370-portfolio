@@ -25,16 +25,16 @@ class About extends Component {
             <h1>Hey there!</h1>
             <p>
               I’m Tommy, a digital product designer. I love to question
-              assumptions, hone into clear user-centric problems, and explore
-              new interactions to build elegant solutions.
+              assumptions, find patterns, hone into clear user-centric problems,
+              and build elegant solutions.
             </p>
             <p>
-              Right now, I’m focused on wrapping up my degree in communication
+              Usually, I’m focused on wrapping up my degree in communication
               studies, computer science, and design @
               <a href="https://www.northwestern.edu/">Northwestern</a>{" "}
               (graduating June 2020). Throughout college, I’ve had the chance to
-              see how tech gets built at a variety of different companies,
-              too--most recently by shipping products for Groupon Goods @
+              see how tech gets built at a variety of different companies by
+              shipping products for Groupon Goods @
               <a
                 href="https://groupon.com"
                 target="_blank"
@@ -50,7 +50,11 @@ class About extends Component {
               >
                 Braintree
               </a>
-              . Currently, I’m @
+              .
+            </p>
+            <p>
+              {" "}
+              Right now, though, I’m an intern @
               <a
                 href="https://wish.com"
                 target="_blank"
@@ -58,16 +62,18 @@ class About extends Component {
               >
                 Wish
               </a>{" "}
-              specifically honing my product design skills on the Marketplace
-              team!
+              in San Francisco! I'm honing my product design skills and
+              improving the Wish merchant experience across mobile and web on
+              some fun projects I can't talk about just yet 🌟
             </p>
             <p>
               I like to work on the end-to-end process of building effective UX
-              flows, and I have a tendency to approach life outside of work with
-              a similar mindset: it shouldn’t be surprising that I approach
-              tasks like Spotify playlist creation and organization with a
-              hyper-critical eye. This goes in both directions, so if I refer
-              to:
+              flows, and to ground my work in existing tools / patterns until
+              it's time to venture into the unknown. I have a tendency to
+              approach life outside of work with a similar mindset: it shouldn’t
+              be surprising that I approach tasks like Spotify playlist creation
+              and organizing my life with a meticulous hand and zany vision.
+              This goes in both directions, so if I refer to:
               <ul>
                 <li>
                   {" "}

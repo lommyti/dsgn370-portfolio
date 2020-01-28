@@ -81,17 +81,17 @@ class Braintree extends Component {
             <div className="top-fold">
               <div className="col-8 d-inline v-align-top b-s-border-box p-right-8 case-bt mobile-w-100">
                 <p>
-                  My very first tech internship was a chance for me to explore
+                  My first tech internship was a chance to explore the industry
                   and see different roles firsthand; as a intern on the Docs
                   team at Braintree, I worked with PMs, designers, and knowledge
-                  strategists on an experimental product landing page within the
-                  BT developer docs. Interested? Feel free to{" "}
+                  strategists to design, write copy for, and code an landing
+                  page experiment within the BT dev docs. Interested?{" "}
                   <div class="text-links d-inline">
                     <a href="mailto:thomastli@u.northwestern.edu?subject=Learning more about your work @Braintree">
-                      reach out
+                      Reach out
                     </a>
                   </div>
-                  , and I'd be happy to provide the PDF password!
+                  , and I'll provide the PDF password!
                 </p>
                 <div class="text-links text-links-bold m-top-5">
                   <a href="/Li_Thomas_Braintree_CaseStudy.pdf" target="_blank">

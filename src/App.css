@@ -437,15 +437,15 @@ a-no-line {
   text-transform: uppercase;
   letter-spacing: 3px;
   margin-right: 2em;
-  font-size: 1em;
+  font-size: 1.1em;
   margin-top: 5.5em;
   border-bottom: 0px solid transparent;
 }
 
 .case-body h3 {
-  font-size: 2em;
-  letter-spacing: -1.25px;
-  line-height: 1em;
+  font-size: 1.8em;
+  letter-spacing: -1.1px;
+  line-height: 1.3em;
   margin-top: 0.3em;
   margin-bottom: 1.25em;
 }

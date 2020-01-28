@@ -70,7 +70,7 @@ class Homepage extends Component {
                 <h2 className="h2-hover">Airbnb</h2>
                 <h3 className="h3-hover ">
                   <strong>Featured </strong> &middot; Client Project / Spring
-                  2019 / Building a pet payments system
+                  2019 / Crafting pet travel standards
                 </h3>
               </div>
 
@@ -81,7 +81,7 @@ class Homepage extends Component {
             </div>
             <img
               src="/img/bg-airbnb.png"
-              className="w-150 m-l-12-5 bg-hover m-h-400  mobile-m-l-r-0 mobile-w-100"
+              className="w-150 m-l-12-5 bg-hover m-h-400 mobile-m-l-r-0 mobile-w-100"
             />
           </Link>
 
